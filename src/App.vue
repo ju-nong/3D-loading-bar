@@ -99,7 +99,7 @@ onMounted(() => {
 
             &:nth-child(2) {
                 width: 100px;
-                transform: rotateY(90deg) translateZ(-50px) translateX(50px);
+                transform: rotateY(90deg) translateZ(-50.5px) translateX(50px);
 
                 > div {
                     animation: loading-bar 1s linear 2.5s forwards;
@@ -108,7 +108,7 @@ onMounted(() => {
 
             &:nth-child(3) {
                 width: 50px;
-                transform: translateZ(-100px) translateX(-100px);
+                transform: translateZ(-100px) translateX(-101px);
 
                 > div {
                     animation: loading-bar 0.5s linear 3.5s forwards;
@@ -117,7 +117,7 @@ onMounted(() => {
 
             &:nth-child(4) {
                 width: 100px;
-                transform: rotateY(-90deg) translateZ(150px) translateX(-50px);
+                transform: rotateY(-90deg) translateZ(151.5px) translateX(-50px);
 
                 > div {
                     animation: loading-bar 1s linear 4s forwards;
@@ -126,7 +126,7 @@ onMounted(() => {
 
             &:nth-child(5) {
                 width: 30px;
-                transform: translateX(-200px);
+                transform: translateX(-202px);
 
                 > div {
                     animation: loading-bar 0.3s linear 5s forwards;
@@ -135,7 +135,7 @@ onMounted(() => {
 
             &:nth-child(6) {
                 width: 150px;
-                transform: translateX(-275px) translateZ(-75px) rotateY(90deg);
+                transform: translateX(-277.5px) translateZ(-75px) rotateY(90deg);
 
                 > div {
                     animation: loading-bar 1.5s linear 5.8s forwards;
@@ -144,7 +144,7 @@ onMounted(() => {
 
             &:nth-child(7) {
                 width: 20px;
-                transform: translateX(-350px) translateZ(-150px);
+                transform: translateX(-353px) translateZ(-150px);
 
                 > div {
                     animation: loading-bar 0.2s linear 7.3s forwards;
@@ -153,7 +153,8 @@ onMounted(() => {
 
             &:nth-child(8) {
                 width: 200px;
-                transform: translateX(-450px) translateZ(-50px) rotateY(-90deg);
+                transform: translateX(-453.5px) translateZ(-50px)
+                    rotateY(-90deg);
 
                 > div {
                     animation: loading-bar 2s linear 7.5s forwards;
@@ -162,7 +163,7 @@ onMounted(() => {
 
             &:nth-child(9) {
                 width: 100px;
-                transform: translateX(-550px) translateZ(50px);
+                transform: translateX(-554px) translateZ(50px);
 
                 > div {
                     animation: loading-bar 1s linear 9.5s forwards;
@@ -171,7 +172,7 @@ onMounted(() => {
 
             &:nth-child(10) {
                 width: 50px;
-                transform: translateX(-575px) translateZ(25px) rotateY(90deg);
+                transform: translateX(-579.5px) translateZ(25px) rotateY(90deg);
 
                 > div {
                     animation: loading-bar 0.5s linear 10.5s forwards;
@@ -181,7 +182,7 @@ onMounted(() => {
             &:nth-child(11) {
                 width: 50px;
                 border-right: 2px solid;
-                transform: translateX(-600px);
+                transform: translateX(-605px);
 
                 > div {
                     animation: loading-bar 0.5s linear 11s forwards;
