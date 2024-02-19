@@ -22,3 +22,9 @@ body {
     justify-content: center;
     overflow: hidden;
 }
+
+@keyframes loading-bar {
+    100% {
+        width: 100%;
+    }
+}
