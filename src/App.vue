@@ -37,16 +37,26 @@
             </div>
         </div>
     </div>
+
+    <p class="copyright">
+        © 2023
+        <a
+            href="https://github.com/ju-nong/3D-loading-bar"
+            title="Github"
+            target="_blank"
+            >ju-nong</a
+        >. All rights reserved.
+    </p>
 </template>
 
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 
-const status = ref("Loading...");
+const status = ref("Loading... 🤔");
 
 onMounted(() => {
     setTimeout(() => {
-        status.value = "Done!";
+        status.value = "Done! 😃";
     }, 11500);
 });
 </script>
@@ -57,7 +67,7 @@ onMounted(() => {
     flex-direction: column;
     row-gap: 10px;
     transition: all 0.3s;
-    transform: translateX(325px);
+    transform: translateX(305px);
     transform-style: preserve-3d;
 
     &:hover {
@@ -190,5 +200,13 @@ onMounted(() => {
             }
         }
     }
+}
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
 }
 </style>
